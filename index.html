@@ -6,42 +6,40 @@
   <title>Moura Barretto Engenharia | Portal de Rotinas Estruturais & Geotécnicas</title>
   
   <!-- Favicon & PWA Icons -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><path d='M25 75 L50 25 L75 75 Z' fill='none' stroke='%2338bdf8' stroke-width='8'/><path d='M35 55 L65 55' stroke='%2338bdf8' stroke-width='6'/></svg>" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23282828'/><path d='M25 75 L50 25 L75 75 Z' fill='none' stroke='%23fb6624' stroke-width='8'/><path d='M35 55 L65 55' stroke='%23fb6624' stroke-width='6'/></svg>" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="MB Engenharia" />
-  <meta name="theme-color" content="#0f172a" />
+  <meta name="theme-color" content="#282828" />
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <!-- Google Fonts: Inter & Outfit -->
+  <!-- Google Fonts: Roboto & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'sans-serif'],
-            display: ['Outfit', 'sans-serif'],
+            sans: ['Roboto', 'Inter', 'sans-serif'],
           },
           colors: {
-            brand: {
-              50: '#f0f9ff',
-              100: '#e0f2fe',
-              500: '#0ea5e9',
-              600: '#0284c7',
-              700: '#0369a1',
-              800: '#075985',
-              900: '#0c4a6e',
-              dark: '#090d16',
-              card: '#131b2e',
-              border: '#1e293b'
+            mb: {
+              orange: '#fb6624',
+              'orange-dark': '#e05417',
+              'orange-light': '#fff7ed',
+              dark: '#282828',
+              'dark-2': '#1e2428',
+              gray: '#f8f9fa',
+              'gray-2': '#f2f2f2',
+              border: '#e5e7eb',
+              text: '#282828',
+              muted: '#6b7280'
             }
           }
         }
@@ -51,25 +49,21 @@
 
   <style>
     body {
-      background-color: #090d16;
-      color: #f1f5f9;
-      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+      color: #282828;
+      font-family: 'Roboto', 'Inter', sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    .glass-card {
-      background: rgba(19, 27, 46, 0.75);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    .clean-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 8px 20px -4px rgba(0, 0, 0, 0.03);
+      transition: all 0.25s ease;
     }
-    .glass-card:hover {
-      border-color: rgba(56, 189, 248, 0.4);
-      transform: translateY(-3px);
-      box-shadow: 0 12px 30px -10px rgba(14, 165, 233, 0.2);
-    }
-    .badge-glow {
-      box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+    .clean-card:hover {
+      border-color: #d1d5db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
     /* Custom scrollbar */
     ::-webkit-scrollbar {
@@ -77,47 +71,48 @@
       height: 6px;
     }
     ::-webkit-scrollbar-track {
-      background: #090d16;
+      background: #f8f9fa;
     }
     ::-webkit-scrollbar-thumb {
-      background: #1e293b;
+      background: #d1d5db;
       border-radius: 3px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #38bdf8;
+      background: #9ca3af;
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col selection:bg-sky-500 selection:text-white">
+<body class="min-h-screen flex flex-col selection:bg-[#fb6624] selection:text-white">
 
   <!-- TOP HEADER -->
-  <header class="sticky top-0 z-50 bg-[#090d16]/90 backdrop-blur-md border-b border-slate-800/80">
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
         <!-- Brand Logo / Name -->
         <div class="flex items-center gap-3.5">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-600 to-cyan-400 flex items-center justify-center shadow-lg shadow-sky-500/20 text-white font-display font-black text-2xl tracking-tighter">
+          <div class="w-12 h-12 rounded-lg bg-[#fb6624] flex items-center justify-center shadow-sm text-white font-bold text-2xl tracking-tighter">
             MB
           </div>
           <div>
             <div class="flex items-center gap-2">
-              <span class="font-display font-bold text-xl sm:text-2xl text-white tracking-tight">Moura Barretto</span>
-              <span class="text-xs px-2 py-0.5 rounded-full font-semibold bg-sky-950 text-sky-400 border border-sky-800">ENGENHARIA</span>
+              <span class="font-bold text-xl sm:text-2xl text-[#282828] tracking-tight">Moura Barretto</span>
+              <span class="text-xs px-2.5 py-0.5 rounded font-semibold bg-gray-100 text-gray-700 border border-gray-300">ENGENHARIA</span>
             </div>
-            <p class="text-xs text-slate-400 font-medium tracking-wide">Hub Central de Dimensionamento & Ferramentas Técnicas</p>
+            <p class="text-xs text-gray-500 font-medium">Hub Central de Dimensionamento & Ferramentas Técnicas</p>
           </div>
         </div>
 
         <!-- Quick Info / Status -->
-        <div class="hidden md:flex items-center gap-4 text-xs">
-          <div class="flex items-center gap-2 bg-slate-900/80 px-3.5 py-1.5 rounded-lg border border-slate-800 text-slate-300">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 badge-glow animate-pulse"></span>
-            <span>Ambiente Operacional Ativo</span>
+        <div class="hidden md:flex items-center gap-3 text-xs">
+          <div class="flex items-center gap-2 bg-gray-50 px-3.5 py-1.5 rounded-lg border border-gray-200 text-gray-600">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            <span class="font-medium">Plataforma Operacional</span>
           </div>
-          <div class="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 text-slate-400 font-mono">
-            CREA-BA • Salvador/BA
-          </div>
+          <a href="https://mmouraengenharia.com/" target="_blank" class="bg-gray-50 hover:bg-gray-100 px-3 py-1.5 rounded-lg border border-gray-200 text-gray-600 font-medium transition-colors flex items-center gap-1.5">
+            <span>mmouraengenharia.com</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400"></i>
+          </a>
         </div>
 
       </div>
@@ -125,66 +120,65 @@
   </header>
 
   <!-- HERO SECTION -->
-  <section class="relative overflow-hidden py-10 sm:py-14 border-b border-slate-800/60 bg-gradient-to-b from-sky-950/20 to-transparent">
-    <div class="absolute inset-0 bg-[radial-gradient(#0284c7_1px,transparent_1px)] [background-size:24px_24px] opacity-15 pointer-events-none"></div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+  <section class="py-10 sm:py-12 border-b border-gray-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
         <div class="max-w-3xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/25 text-sky-400 text-xs font-semibold uppercase tracking-wider mb-3">
-            <i class="fa-solid fa-layer-group"></i> Portal Web de Engenharia Estrutural & Geotécnica
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-orange-50 border border-orange-200 text-[#fb6624] text-xs font-bold uppercase tracking-wider mb-3">
+            <i class="fa-solid fa-compass-drafting"></i> Engenharia Estrutural, Geotécnica & BIM
           </div>
-          <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-            Plataforma Integrada de <span class="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">Cálculo e Dimensionamento</span>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#282828] tracking-tight leading-tight">
+            Plataforma Integrada de <span class="text-[#fb6624]">Dimensionamento Estrutural</span>
           </h1>
-          <p class="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">
-            Acesso unificado a rotinas automatizadas, memoriais de cálculo normatizados (NBR 6118, NBR 6122, NBR 6123) e utilitários rápidos para campo e escritório.
+          <p class="mt-3 text-gray-600 text-sm sm:text-base leading-relaxed">
+            Rotinas computacionais automatizadas, geração de memoriais de cálculo normatizados (NBR 6118, NBR 6122, NBR 6123) e utilitários práticos para campo e escritório técnico.
           </p>
         </div>
 
         <!-- Mobile Install / Shortcut Reminder -->
-        <div class="flex items-center gap-3 bg-slate-900/90 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 self-start md:self-auto">
-          <div class="w-9 h-9 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center text-lg flex-shrink-0">
+        <div class="flex items-center gap-3 bg-gray-50 p-3.5 rounded-xl border border-gray-200 text-xs text-gray-700 self-start md:self-auto">
+          <div class="w-10 h-10 rounded-lg bg-orange-50 text-[#fb6624] border border-orange-100 flex items-center justify-center text-lg flex-shrink-0">
             <i class="fa-solid fa-mobile-screen-button"></i>
           </div>
           <div>
-            <div class="font-semibold text-white">Acesse direto no celular</div>
-            <div class="text-slate-400">Adicione à tela de início para abrir como App</div>
+            <div class="font-bold text-[#282828]">Acesso rápido no smartphone</div>
+            <div class="text-gray-500">Adicione à tela de início para abrir como App</div>
           </div>
         </div>
       </div>
 
       <!-- SEARCH & FILTER BAR -->
-      <div class="mt-8 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="mt-8 pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4">
         
         <!-- Category Chips -->
         <div class="flex items-center gap-2 overflow-x-auto w-full sm:w-auto pb-2 sm:pb-0" id="filter-buttons">
-          <button onclick="filterCards('all')" class="filter-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white transition-all shadow-sm">
+          <button onclick="filterCards('all')" class="filter-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold bg-[#282828] text-white transition-all shadow-sm">
             Todas as Rotinas
           </button>
-          <button onclick="filterCards('fundacoes')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition-all">
+          <button onclick="filterCards('fundacoes')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 transition-all">
             Fundações & Estacas
           </button>
-          <button onclick="filterCards('reservatorios')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition-all">
+          <button onclick="filterCards('reservatorios')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 transition-all">
             Torres & Reservatórios
           </button>
-          <button onclick="filterCards('contencoes')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition-all">
+          <button onclick="filterCards('contencoes')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 transition-all">
             Contenções & Solos
           </button>
-          <button onclick="filterCards('utilitarios')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition-all">
+          <button onclick="filterCards('utilitarios')" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 transition-all">
             Calculadoras Rápidas
           </button>
         </div>
 
         <!-- Live Search Input -->
         <div class="relative w-full sm:w-72">
-          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
           <input 
             type="text" 
             id="searchInput" 
             onkeyup="searchCards()" 
             placeholder="Buscar módulo, norma ou cálculo..." 
-            class="w-full bg-slate-900/90 border border-slate-800 rounded-lg pl-9 pr-3.5 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition-all"
+            class="w-full bg-white border border-gray-300 rounded-lg pl-9 pr-3.5 py-2 text-xs text-gray-800 placeholder-gray-400 focus:outline-none focus:border-[#fb6624] focus:ring-1 focus:ring-[#fb6624] transition-all"
           />
         </div>
 
@@ -198,49 +192,49 @@
     
     <div class="flex items-center justify-between mb-6">
       <div class="flex items-center gap-2">
-        <h2 class="font-display text-xl sm:text-2xl font-bold text-white tracking-tight">Catálogo de Aplicações</h2>
-        <span class="text-xs bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full font-mono font-medium" id="appsCount">5 Módulos</span>
+        <h2 class="text-xl sm:text-2xl font-bold text-[#282828] tracking-tight">Catálogo de Aplicações</h2>
+        <span class="text-xs bg-gray-200 text-gray-700 px-2.5 py-0.5 rounded-full font-mono font-semibold" id="appsCount">5 Módulos</span>
       </div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cardsGrid">
 
       <!-- CARD 1: FUNDAÇÕES DE RESERVATÓRIOS METÁLICOS (ONLINE) -->
-      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between app-card" data-category="reservatorios fundacoes" data-keywords="reservatorio metalico caixa d'agua torre vento nbr 6123 schiel estacas bloco dpt">
+      <div class="clean-card rounded-xl p-6 flex flex-col justify-between app-card border-t-4 border-t-[#fb6624]" data-category="reservatorios fundacoes" data-keywords="reservatorio metalico caixa d'agua torre vento nbr 6123 schiel estacas bloco dpt">
         <div>
           <div class="flex items-start justify-between gap-3 mb-4">
-            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center text-xl">
+            <div class="w-12 h-12 rounded-lg bg-orange-50 border border-orange-100 text-[#fb6624] flex items-center justify-center text-xl">
               <i class="fa-solid fa-faucet-drip"></i>
             </div>
             <div class="flex flex-col items-end">
-              <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-400 bg-emerald-950/60 border border-emerald-700/60 px-2.5 py-0.5 rounded-full">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> OPERACIONAL
+              <span class="inline-flex items-center gap-1.5 text-[11px] font-bold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> OPERACIONAL
               </span>
-              <span class="text-[10px] text-slate-500 font-mono mt-1">v2.1 • DPT Salvador</span>
+              <span class="text-[11px] text-gray-500 font-mono mt-1">v2.1 • DPT Salvador</span>
             </div>
           </div>
 
-          <h3 class="font-display font-bold text-lg text-white group-hover:text-sky-400 transition-colors">
+          <h3 class="font-bold text-lg text-[#282828] hover:text-[#fb6624] transition-colors">
             Fundações de Reservatórios Metálicos
           </h3>
-          <p class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Dimensionamento analítico completo de cargas de água, vento dinâmico (NBR 6123), momento de tombamento, verificação de estacas por Schiel e detalhamento de armaduras do bloco e fuste.
+          <p class="mt-2 text-xs text-gray-600 leading-relaxed">
+            Dimensionamento analítico completo de cargas de água, vento dinâmico (NBR 6123), momento de tombamento, verificação de estacas por Schiel e armaduras do bloco e fuste.
           </p>
 
           <div class="mt-4 flex flex-wrap gap-1.5">
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">NBR 6123</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">NBR 6118</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Hélice Contínua</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Schiel</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">NBR 6123</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">NBR 6118</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Hélice Contínua</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Schiel</span>
           </div>
         </div>
 
-        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
-          <span class="text-xs text-slate-500 font-medium">Torres 100m³ e 160m³</span>
+        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-xs text-gray-500 font-medium">Torres 100m³ e 160m³</span>
           <a 
             href="https://mateusbarrettoai-max.github.io/fundacao-reservatorio/" 
             target="_blank"
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-cyan-500 hover:from-sky-500 hover:to-cyan-400 text-white font-semibold text-xs transition-all shadow-md shadow-sky-600/20 hover:shadow-sky-500/40"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fb6624] hover:bg-[#e05417] text-white font-bold text-xs transition-all shadow-sm"
           >
             <span>Abrir Aplicação</span>
             <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
@@ -248,151 +242,146 @@
         </div>
       </div>
 
-      <!-- CARD 2: CÁLCULO DE ESTACAS (PRÓXIMO PROGRAMA / EM CONSTRUÇÃO) -->
-      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between app-card relative border-sky-500/30" data-category="fundacoes" data-keywords="estacas helice continua escavada aoki velloso decourt quaresma teixeira capacidade de carga geotécnica armadura nbr 6122">
-        <div class="absolute -top-3 right-6 bg-gradient-to-r from-blue-600 to-sky-500 text-white text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full shadow-md">
-          Próximo Programa
-        </div>
+      <!-- CARD 2: CÁLCULO DE ESTACAS (PRONTO) -->
+      <div class="clean-card rounded-xl p-6 flex flex-col justify-between app-card border-t-4 border-t-[#282828]" data-category="fundacoes" data-keywords="estacas helice continua escavada aoki velloso decourt quaresma teixeira capacidade de carga geotécnica armadura nbr 6122">
         <div>
           <div class="flex items-start justify-between gap-3 mb-4">
-            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-400 flex items-center justify-center text-xl">
+            <div class="w-12 h-12 rounded-lg bg-gray-100 text-[#282828] flex items-center justify-center text-xl">
               <i class="fa-solid fa-trowel-bricks"></i>
             </div>
             <div class="flex flex-col items-end">
-              <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-sky-400 bg-sky-950/60 border border-sky-700/60 px-2.5 py-0.5 rounded-full">
-                <i class="fa-solid fa-code"></i> EM DESENVOLVIMENTO
+              <span class="inline-flex items-center gap-1.5 text-[11px] font-bold text-[#fb6624] bg-orange-50 border border-orange-200 px-2.5 py-0.5 rounded-full">
+                <i class="fa-solid fa-check"></i> DISPONÍVEL
               </span>
-              <span class="text-[10px] text-slate-500 font-mono mt-1">NBR 6122 & 6118</span>
+              <span class="text-[11px] text-gray-500 font-mono mt-1">NBR 6122 & 6118</span>
             </div>
           </div>
 
-          <h3 class="font-display font-bold text-lg text-white">
-            Cálculo e Dimensionamento de Estacas
+          <h3 class="font-bold text-lg text-[#282828] hover:text-[#fb6624] transition-colors">
+            Cálculo & Dimensionamento de Estacas
           </h3>
-          <p class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Determinação da capacidade de carga geotécnica (Aoki-Velloso, Décourt-Quaresma e Teixeira) a partir do perfil de sondagem SPT, dimensionamento à flexo-compressão normal/oblíqua e armação em espiral.
+          <p class="mt-2 text-xs text-gray-600 leading-relaxed">
+            Determinação da capacidade de carga geotécnica (Aoki-Velloso, Décourt-Quaresma e Teixeira) a partir do perfil de sondagem SPT, dimensionamento à flexo-compressão e armação em espiral.
           </p>
 
           <div class="mt-4 flex flex-wrap gap-1.5">
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Aoki-Velloso</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Décourt-Quaresma</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Teixeira</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Diagrama M-N</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Aoki-Velloso</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Décourt-Quaresma</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Teixeira</span>
+            <span class="text-[10px] font-semibold bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200">Armadura</span>
           </div>
         </div>
 
-        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
-          <span class="text-xs text-slate-500 font-medium">Hélice & Escavadas</span>
-          <div class="flex items-center gap-2">
-            <a 
-              href="https://mateusbarrettoai-max.github.io/calculo-estacas/" 
-              target="_blank"
-              class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-all shadow-md shadow-sky-600/20"
-            >
-              <span>Abrir App</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-            </a>
-          </div>
+        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-xs text-gray-500 font-medium">Hélice & Escavadas</span>
+          <a 
+            href="https://mateusbarrettoai-max.github.io/calculo-estacas/" 
+            target="_blank"
+            class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#282828] hover:bg-[#1a1a1a] text-white font-bold text-xs transition-all shadow-sm"
+          >
+            <span>Abrir App</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
         </div>
       </div>
 
       <!-- CARD 3: BLOCOS DE COROAMENTO (EM PLANEJAMENTO) -->
-      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between app-card opacity-85 hover:opacity-100" data-category="fundacoes" data-keywords="bloco de coroamento bielas e tirantes blevot estacas concreto armado cisalhamento">
+      <div class="clean-card rounded-xl p-6 flex flex-col justify-between app-card opacity-90 hover:opacity-100" data-category="fundacoes" data-keywords="bloco de coroamento bielas e tirantes blevot estacas concreto armado cisalhamento">
         <div>
           <div class="flex items-start justify-between gap-3 mb-4">
-            <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 text-slate-400 flex items-center justify-center text-xl">
+            <div class="w-12 h-12 rounded-lg bg-gray-50 text-gray-500 border border-gray-200 flex items-center justify-center text-xl">
               <i class="fa-solid fa-cubes"></i>
             </div>
-            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-2.5 py-0.5 rounded-full">
+            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-gray-600 bg-gray-100 border border-gray-200 px-2.5 py-0.5 rounded-full">
               <i class="fa-regular fa-clock"></i> PLANEJADO
             </span>
           </div>
 
-          <h3 class="font-display font-bold text-lg text-white">
+          <h3 class="font-bold text-lg text-[#282828]">
             Blocos de Coroamento sobre Estacas
           </h3>
-          <p class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Dimensionamento automático de blocos de 1 a 12 estacas pelo Método das Bielas e Tirantes (Blévot / NBR 6118:2023), verificação de tensões nodais e armadura principal em malha/gaiola.
+          <p class="mt-2 text-xs text-gray-600 leading-relaxed">
+            Dimensionamento automático de blocos de 1 a 12 estacas pelo Método das Bielas e Tirantes (Blévot / NBR 6118:2023), tensões nodais e armadura principal em malha.
           </p>
 
           <div class="mt-4 flex flex-wrap gap-1.5">
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Blévot</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Bielas e Tirantes</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">NBR 6118</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Blévot</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Bielas e Tirantes</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">NBR 6118</span>
           </div>
         </div>
 
-        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
-          <span class="text-xs text-slate-500 font-medium">1 a 12 estacas</span>
-          <button disabled class="px-3.5 py-1.5 rounded-xl bg-slate-900 text-slate-500 font-semibold text-xs cursor-not-allowed">
+        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-xs text-gray-500 font-medium">1 a 12 estacas</span>
+          <button disabled class="px-3.5 py-1.5 rounded-lg bg-gray-100 text-gray-400 font-semibold text-xs cursor-not-allowed">
             Em Breve
           </button>
         </div>
       </div>
 
       <!-- CARD 4: CONTENÇÕES & CORTINAS (EM PLANEJAMENTO) -->
-      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between app-card opacity-85 hover:opacity-100" data-category="contencoes" data-keywords="contencao cortina de estacas arrimo empuxo solo rankine coulomb solo grampeado tirantes">
+      <div class="clean-card rounded-xl p-6 flex flex-col justify-between app-card opacity-90 hover:opacity-100" data-category="contencoes" data-keywords="contencao cortina de estacas arrimo empuxo solo rankine coulomb solo grampeado tirantes">
         <div>
           <div class="flex items-start justify-between gap-3 mb-4">
-            <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 text-slate-400 flex items-center justify-center text-xl">
+            <div class="w-12 h-12 rounded-lg bg-gray-50 text-gray-500 border border-gray-200 flex items-center justify-center text-xl">
               <i class="fa-solid fa-mountain"></i>
             </div>
-            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-2.5 py-0.5 rounded-full">
+            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-gray-600 bg-gray-100 border border-gray-200 px-2.5 py-0.5 rounded-full">
               <i class="fa-regular fa-clock"></i> PLANEJADO
             </span>
           </div>
 
-          <h3 class="font-display font-bold text-lg text-white">
+          <h3 class="font-bold text-lg text-[#282828]">
             Cortinas & Estruturas de Contenção
           </h3>
-          <p class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Cálculo de empuxos ativos e passivos (Rankine / Coulomb), linha elástica e momento fletor máximo em cortinas de estacas secantes ou pranchadas com tirantes ou estroncas.
+          <p class="mt-2 text-xs text-gray-600 leading-relaxed">
+            Cálculo de empuxos ativos e passivos (Rankine / Coulomb), linha elástica e momento fletor máximo em cortinas de estacas com tirantes ou estroncas.
           </p>
 
           <div class="mt-4 flex flex-wrap gap-1.5">
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Rankine</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Coulomb</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Tirantes</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Rankine</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Coulomb</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Tirantes</span>
           </div>
         </div>
 
-        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
-          <span class="text-xs text-slate-500 font-medium">Contenções Urbanas</span>
-          <button disabled class="px-3.5 py-1.5 rounded-xl bg-slate-900 text-slate-500 font-semibold text-xs cursor-not-allowed">
+        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-xs text-gray-500 font-medium">Contenções Urbanas</span>
+          <button disabled class="px-3.5 py-1.5 rounded-lg bg-gray-100 text-gray-400 font-semibold text-xs cursor-not-allowed">
             Em Breve
           </button>
         </div>
       </div>
 
       <!-- CARD 5: SAPATAS RÍGIDAS & RADIERS (EM PLANEJAMENTO) -->
-      <div class="glass-card rounded-2xl p-6 flex flex-col justify-between app-card opacity-85 hover:opacity-100" data-category="fundacoes" data-keywords="sapata rigida fundacao superficial radier tensao solo puncao flexao">
+      <div class="clean-card rounded-xl p-6 flex flex-col justify-between app-card opacity-90 hover:opacity-100" data-category="fundacoes" data-keywords="sapata rigida fundacao superficial radier tensao solo puncao flexao">
         <div>
           <div class="flex items-start justify-between gap-3 mb-4">
-            <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 text-slate-400 flex items-center justify-center text-xl">
+            <div class="w-12 h-12 rounded-lg bg-gray-50 text-gray-500 border border-gray-200 flex items-center justify-center text-xl">
               <i class="fa-solid fa-shapes"></i>
             </div>
-            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-amber-400 bg-amber-950/40 border border-amber-800/40 px-2.5 py-0.5 rounded-full">
+            <span class="inline-flex items-center gap-1.5 text-[11px] font-semibold text-gray-600 bg-gray-100 border border-gray-200 px-2.5 py-0.5 rounded-full">
               <i class="fa-regular fa-clock"></i> PLANEJADO
             </span>
           </div>
 
-          <h3 class="font-display font-bold text-lg text-white">
+          <h3 class="font-bold text-lg text-[#282828]">
             Sapatas Rígidas & Radiers
           </h3>
-          <p class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Verificação de tensões admissíveis no maciço de apoio, punção, cálculo da altura mínima para rigidez e armadura de flexão bi-direcional com ancoragens.
+          <p class="mt-2 text-xs text-gray-600 leading-relaxed">
+            Verificação de tensões admissíveis no solo, punção, cálculo da altura mínima para rigidez e armadura de flexão bi-direcional.
           </p>
 
           <div class="mt-4 flex flex-wrap gap-1.5">
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Sapatas</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Radier</span>
-            <span class="text-[10px] font-medium bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-800">Punção</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Sapatas</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Radier</span>
+            <span class="text-[10px] font-medium bg-gray-100 text-gray-600 px-2 py-0.5 rounded border border-gray-200">Punção</span>
           </div>
         </div>
 
-        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
-          <span class="text-xs text-slate-500 font-medium">Fundações Superficiais</span>
-          <button disabled class="px-3.5 py-1.5 rounded-xl bg-slate-900 text-slate-500 font-semibold text-xs cursor-not-allowed">
+        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+          <span class="text-xs text-gray-500 font-medium">Fundações Superficiais</span>
+          <button disabled class="px-3.5 py-1.5 rounded-lg bg-gray-100 text-gray-400 font-semibold text-xs cursor-not-allowed">
             Em Breve
           </button>
         </div>
@@ -401,74 +390,74 @@
     </div>
 
     <!-- SEÇÃO: UTILITÁRIOS RÁPIDOS DE ENGENHARIA -->
-    <section class="mt-14 pt-10 border-t border-slate-800" id="section-utilitarios">
+    <section class="mt-14 pt-10 border-t border-gray-200" id="section-utilitarios">
       <div class="flex items-center gap-3 mb-6">
-        <div class="w-10 h-10 rounded-xl bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center text-lg">
+        <div class="w-10 h-10 rounded-lg bg-orange-50 border border-orange-100 text-[#fb6624] flex items-center justify-center text-lg">
           <i class="fa-solid fa-calculator"></i>
         </div>
         <div>
-          <h2 class="font-display text-xl sm:text-2xl font-bold text-white tracking-tight">Calculadoras & Utilitários Rápidos</h2>
-          <p class="text-xs text-slate-400">Ferramentas de checagem imediata para uso em canteiro de obras e vistorias</p>
+          <h2 class="text-xl sm:text-2xl font-bold text-[#282828] tracking-tight">Calculadoras & Utilitários Rápidos</h2>
+          <p class="text-xs text-gray-500">Ferramentas de checagem imediata para uso em canteiro de obras e vistorias</p>
         </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <!-- TOOL 1: CONVERSOR DE FORÇA E PRESSÃO -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5">
-          <div class="flex items-center gap-2 text-sky-400 font-semibold text-sm mb-3">
-            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="clean-card rounded-xl p-5">
+          <div class="flex items-center gap-2 text-[#282828] font-bold text-sm mb-3">
+            <i class="fa-solid fa-arrow-right-arrow-left text-[#fb6624]"></i>
             <span>Conversor de Unidades</span>
           </div>
           <div class="space-y-3 text-xs">
             <div>
-              <label class="text-slate-400 block mb-1">Força em tf (tonelada-força):</label>
+              <label class="text-gray-600 block mb-1">Força em tf (tonelada-força):</label>
               <div class="flex gap-2">
-                <input type="number" id="inputTf" value="10" oninput="convertForce()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
-                <span class="text-slate-500 py-1.5 font-mono">tf</span>
+                <input type="number" id="inputTf" value="10" oninput="convertForce()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
+                <span class="text-gray-500 py-1.5 font-mono">tf</span>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-2 bg-slate-950 p-2.5 rounded-lg border border-slate-800/80 font-mono text-center">
+            <div class="grid grid-cols-2 gap-2 bg-gray-50 p-2.5 rounded-lg border border-gray-200 font-mono text-center">
               <div>
-                <span class="text-slate-500 block text-[10px]">Em Quilonewtons</span>
-                <span class="text-sky-400 font-bold text-sm" id="resKn">98.07 kN</span>
+                <span class="text-gray-500 block text-[10px]">Em Quilonewtons</span>
+                <span class="text-[#282828] font-bold text-sm" id="resKn">98.07 kN</span>
               </div>
               <div>
-                <span class="text-slate-500 block text-[10px]">Aprox. Prática</span>
-                <span class="text-emerald-400 font-bold text-sm" id="resKnPrat">100 kN</span>
+                <span class="text-gray-500 block text-[10px]">Aprox. Prática</span>
+                <span class="text-[#fb6624] font-bold text-sm" id="resKnPrat">100 kN</span>
               </div>
             </div>
             <div>
-              <label class="text-slate-400 block mb-1">Tensão / Pressão:</label>
+              <label class="text-gray-600 block mb-1">Tensão / Pressão:</label>
               <div class="flex gap-2">
-                <input type="number" id="inputMpa" value="30" oninput="convertPressure()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
-                <span class="text-slate-500 py-1.5 font-mono">MPa</span>
+                <input type="number" id="inputMpa" value="30" oninput="convertPressure()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
+                <span class="text-gray-500 py-1.5 font-mono">MPa</span>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-2 bg-slate-950 p-2.5 rounded-lg border border-slate-800/80 font-mono text-center">
+            <div class="grid grid-cols-2 gap-2 bg-gray-50 p-2.5 rounded-lg border border-gray-200 font-mono text-center">
               <div>
-                <span class="text-slate-500 block text-[10px]">Em kgf/cm²</span>
-                <span class="text-amber-400 font-bold text-sm" id="resKgf">305.9 kgf/cm²</span>
+                <span class="text-gray-500 block text-[10px]">Em kgf/cm²</span>
+                <span class="text-gray-800 font-bold text-sm" id="resKgf">305.9 kgf/cm²</span>
               </div>
               <div>
-                <span class="text-slate-500 block text-[10px]">Em kPa</span>
-                <span class="text-cyan-400 font-bold text-sm" id="resKpa">30,000 kPa</span>
+                <span class="text-gray-500 block text-[10px]">Em kPa</span>
+                <span class="text-[#fb6624] font-bold text-sm" id="resKpa">30,000 kPa</span>
               </div>
             </div>
           </div>
         </div>
 
         <!-- TOOL 2: ÁREA DE AÇO E PESO DE ARMADURA -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5">
-          <div class="flex items-center gap-2 text-sky-400 font-semibold text-sm mb-3">
-            <i class="fa-solid fa-bars"></i>
+        <div class="clean-card rounded-xl p-5">
+          <div class="flex items-center gap-2 text-[#282828] font-bold text-sm mb-3">
+            <i class="fa-solid fa-bars text-[#fb6624]"></i>
             <span>Área de Aço (As) & Peso Linear</span>
           </div>
           <div class="space-y-3 text-xs">
             <div class="grid grid-cols-2 gap-2">
               <div>
-                <label class="text-slate-400 block mb-1">Bitola (ϕ):</label>
-                <select id="selBitola" onchange="calcSteel()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none">
+                <label class="text-gray-600 block mb-1">Bitola (ϕ):</label>
+                <select id="selBitola" onchange="calcSteel()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none">
                   <option value="6.3">6.3 mm (1/4")</option>
                   <option value="8.0">8.0 mm (5/16")</option>
                   <option value="10.0">10.0 mm (3/8")</option>
@@ -480,144 +469,82 @@
                 </select>
               </div>
               <div>
-                <label class="text-slate-400 block mb-1">Qtd. de Barras:</label>
-                <input type="number" id="inputQtdBarras" value="6" min="1" oninput="calcSteel()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">Qtd. de Barras:</label>
+                <input type="number" id="inputQtdBarras" value="6" min="1" oninput="calcSteel()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
             </div>
             
-            <div class="bg-slate-950 p-3 rounded-lg border border-slate-800/80 space-y-2 font-mono">
+            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200 space-y-2 font-mono">
               <div class="flex justify-between items-center text-xs">
-                <span class="text-slate-400">Área de 1 barra:</span>
-                <span class="text-slate-200 font-semibold" id="resAs1">1.23 cm²</span>
+                <span class="text-gray-600">Área de 1 barra:</span>
+                <span class="text-gray-800 font-bold" id="resAs1">1.23 cm²</span>
               </div>
               <div class="flex justify-between items-center text-xs">
-                <span class="text-slate-400">Área Total (As):</span>
-                <span class="text-sky-400 font-bold text-sm" id="resAsTotal">7.36 cm²</span>
+                <span class="text-gray-600">Área Total (As):</span>
+                <span class="text-[#fb6624] font-bold text-sm" id="resAsTotal">7.36 cm²</span>
               </div>
-              <div class="flex justify-between items-center text-xs pt-1 border-t border-slate-800/60">
-                <span class="text-slate-400">Peso Linear:</span>
-                <span class="text-emerald-400 font-bold" id="resPesoMetro">0.963 kg/m por barra</span>
+              <div class="flex justify-between items-center text-xs pt-1 border-t border-gray-200">
+                <span class="text-gray-600">Peso Linear:</span>
+                <span class="text-gray-800 font-bold" id="resPesoMetro">0.963 kg/m por barra</span>
               </div>
             </div>
 
-            <p class="text-[11px] text-slate-500 italic">
+            <p class="text-[11px] text-gray-500 italic">
               * Densidade do aço considerada: 7.850 kg/m³.
             </p>
           </div>
         </div>
 
         <!-- TOOL 3: ESTIMATIVA RÁPIDA DE PESO PRÓPRIO DE PILARES / CONCRETO -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5">
-          <div class="flex items-center gap-2 text-sky-400 font-semibold text-sm mb-3">
-            <i class="fa-solid fa-weight-hanging"></i>
+        <div class="clean-card rounded-xl p-5">
+          <div class="flex items-center gap-2 text-[#282828] font-bold text-sm mb-3">
+            <i class="fa-solid fa-weight-hanging text-[#fb6624]"></i>
             <span>Volume e Peso de Concreto</span>
           </div>
           <div class="space-y-3 text-xs">
             <div>
-              <label class="text-slate-400 block mb-1">Elemento:</label>
-              <select id="selElemTipo" onchange="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white focus:border-sky-500 outline-none">
+              <label class="text-gray-600 block mb-1">Elemento:</label>
+              <select id="selElemTipo" onchange="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 focus:border-[#fb6624] outline-none">
                 <option value="estaca">Estaca Circular (Fuste)</option>
                 <option value="bloco">Bloco / Sapata Retangular</option>
               </select>
             </div>
             <div id="paramCircular" class="grid grid-cols-2 gap-2">
               <div>
-                <label class="text-slate-400 block mb-1">Diâmetro (cm):</label>
-                <input type="number" id="inpDiamEst" value="40" oninput="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">Diâmetro (cm):</label>
+                <input type="number" id="inpDiamEst" value="40" oninput="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
               <div>
-                <label class="text-slate-400 block mb-1">Compr. L (m):</label>
-                <input type="number" id="inpCompEst" value="15" oninput="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">Compr. L (m):</label>
+                <input type="number" id="inpCompEst" value="15" oninput="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-3 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
             </div>
             <div id="paramRetangular" class="grid grid-cols-3 gap-2 hidden">
               <div>
-                <label class="text-slate-400 block mb-1">Bx (m):</label>
-                <input type="number" id="inpBx" value="4.20" step="0.1" oninput="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-2 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">Bx (m):</label>
+                <input type="number" id="inpBx" value="4.20" step="0.1" oninput="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-2 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
               <div>
-                <label class="text-slate-400 block mb-1">By (m):</label>
-                <input type="number" id="inpBy" value="4.20" step="0.1" oninput="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-2 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">By (m):</label>
+                <input type="number" id="inpBy" value="4.20" step="0.1" oninput="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-2 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
               <div>
-                <label class="text-slate-400 block mb-1">H (m):</label>
-                <input type="number" id="inpH" value="1.10" step="0.05" oninput="calcConcrete()" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-2 py-1.5 text-white font-mono focus:border-sky-500 outline-none" />
+                <label class="text-gray-600 block mb-1">H (m):</label>
+                <input type="number" id="inpH" value="1.10" step="0.05" oninput="calcConcrete()" class="w-full bg-white border border-gray-300 rounded-lg px-2 py-1.5 text-gray-800 font-mono focus:border-[#fb6624] outline-none" />
               </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-2 bg-slate-950 p-2.5 rounded-lg border border-slate-800/80 font-mono text-center">
+            <div class="grid grid-cols-2 gap-2 bg-gray-50 p-2.5 rounded-lg border border-gray-200 font-mono text-center">
               <div>
-                <span class="text-slate-500 block text-[10px]">Volume Concreto</span>
-                <span class="text-sky-400 font-bold text-sm" id="resVol">1.88 m³</span>
+                <span class="text-gray-500 block text-[10px]">Volume Concreto</span>
+                <span class="text-[#282828] font-bold text-sm" id="resVol">1.88 m³</span>
               </div>
               <div>
-                <span class="text-slate-500 block text-[10px]">Peso Próprio (γ=25)</span>
-                <span class="text-emerald-400 font-bold text-sm" id="resPesoConc">4.71 tf</span>
+                <span class="text-gray-500 block text-[10px]">Peso Próprio (γ=25)</span>
+                <span class="text-[#fb6624] font-bold text-sm" id="resPesoConc">4.71 tf</span>
               </div>
             </div>
           </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- PREVIEW / ROADMAP DO PRÓXIMO PROGRAMA: CÁLCULO DE ESTACAS -->
-    <section class="mt-14 pt-10 border-t border-slate-800" id="modulo-estacas-preview">
-      <div class="glass-card rounded-3xl p-6 sm:p-8 border-sky-500/30 bg-gradient-to-br from-sky-950/30 via-slate-900/90 to-slate-950">
-        
-        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-slate-800">
-          <div>
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/25 text-sky-400 text-xs font-semibold uppercase tracking-wider mb-2">
-              <i class="fa-solid fa-compass-drafting"></i> Próximo Lançamento em Produção
-            </div>
-            <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-white">
-              Módulo: Cálculo & Dimensionamento de Estacas
-            </h3>
-            <p class="text-sm text-slate-400 mt-1 max-w-2xl">
-              Integração completa dos métodos geotécnicos consagrados com o dimensionamento das armaduras longitudinais e helicoidais segundo as normas NBR 6122:2019 e NBR 6118:2023.
-            </p>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <span class="px-3.5 py-1.5 rounded-xl bg-sky-900/40 border border-sky-700/50 text-sky-300 font-mono text-xs font-semibold">
-              Status: Em Configuração
-            </span>
-          </div>
-        </div>
-
-        <!-- RECURSOS DO NOVO PROGRAMA -->
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-          
-          <div class="bg-slate-950/70 p-5 rounded-2xl border border-slate-800/80">
-            <div class="w-9 h-9 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center text-base mb-3">
-              <i class="fa-solid fa-layer-group"></i>
-            </div>
-            <h4 class="font-semibold text-white text-sm">Entrada de Perfil SPT</h4>
-            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-              Configuração das camadas de solo (tipo, espessura, N_SPT por metro e nível d'água) com base em sondagens reais como as do DPT (SP-01 a SP-07).
-            </p>
-          </div>
-
-          <div class="bg-slate-950/70 p-5 rounded-2xl border border-slate-800/80">
-            <div class="w-9 h-9 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-base mb-3">
-              <i class="fa-solid fa-chart-line"></i>
-            </div>
-            <h4 class="font-semibold text-white text-sm">Métodos Geotécnicos</h4>
-            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-              Cálculo simultâneo por <strong>Aoki-Velloso</strong>, <strong>Décourt-Quaresma</strong> e <strong>Teixeira</strong> para estacas escavadas e hélice contínua com curvas de carga admissível por metro de profundidade.
-            </p>
-          </div>
-
-          <div class="bg-slate-950/70 p-5 rounded-2xl border border-slate-800/80">
-            <div class="w-9 h-9 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-base mb-3">
-              <i class="fa-solid fa-circle-nodes"></i>
-            </div>
-            <h4 class="font-semibold text-white text-sm">Armaduras & Diagrama M-N</h4>
-            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-              Verificação à flexo-compressão normal e oblíqua ($N_k, M_k, V_k$), cálculo do número de barras, estribo em espiral e profundidade de engastamento.
-            </p>
-          </div>
-
         </div>
 
       </div>
@@ -626,16 +553,18 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="mt-auto border-t border-slate-800/80 bg-[#090d16] py-8 text-xs text-slate-500">
+  <footer class="mt-auto border-t border-gray-200 bg-white py-8 text-xs text-gray-500">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
-        <span class="w-2.5 h-2.5 rounded-full bg-sky-500"></span>
-        <span class="font-medium text-slate-400">Moura Barretto Engenharia</span>
-        <span>• Todos os direitos reservados</span>
+        <span class="w-2.5 h-2.5 rounded bg-[#fb6624]"></span>
+        <span class="font-medium text-gray-700">Moura Barretto Engenharia</span>
+        <span>• Salvador - Bahia</span>
       </div>
       <div class="flex items-center gap-6">
-        <span>Salvador - Bahia</span>
-        <a href="https://github.com/mateusbarrettoai-max" target="_blank" class="hover:text-sky-400 transition-colors flex items-center gap-1.5">
+        <a href="https://mmouraengenharia.com/" target="_blank" class="hover:text-[#fb6624] transition-colors">
+          mmouraengenharia.com
+        </a>
+        <a href="https://github.com/mateusbarrettoai-max" target="_blank" class="hover:text-[#fb6624] transition-colors flex items-center gap-1.5">
           <i class="fa-brands fa-github text-sm"></i>
           <span>GitHub</span>
         </a>
@@ -668,11 +597,11 @@
     function filterCards(category) {
       const buttons = document.querySelectorAll('.filter-btn');
       buttons.forEach(btn => {
-        btn.classList.remove('bg-sky-600', 'text-white', 'active');
-        btn.classList.add('bg-slate-900', 'text-slate-300');
+        btn.classList.remove('bg-[#282828]', 'text-white', 'active');
+        btn.classList.add('bg-white', 'text-gray-700');
       });
-      event.target.classList.add('bg-sky-600', 'text-white', 'active');
-      event.target.classList.remove('bg-slate-900', 'text-slate-300');
+      event.target.classList.add('bg-[#282828]', 'text-white', 'active');
+      event.target.classList.remove('bg-white', 'text-gray-700');
 
       if (category === 'utilitarios') {
         document.getElementById('section-utilitarios').scrollIntoView({ behavior: 'smooth' });
@@ -692,10 +621,6 @@
         }
       });
       document.getElementById('appsCount').innerText = `${visibleCount} Módulo(s)`;
-    }
-
-    function scrollToPreview() {
-      document.getElementById('modulo-estacas-preview').scrollIntoView({ behavior: 'smooth' });
     }
 
     // Quick Unit Converter
@@ -720,11 +645,9 @@
       const phi = parseFloat(document.getElementById('selBitola').value);
       const n = parseInt(document.getElementById('inputQtdBarras').value) || 1;
       
-      const r = (phi / 10) / 2; // raio em cm
-      const as1 = Math.PI * Math.pow(r, 2); // cm²
+      const r = (phi / 10) / 2;
+      const as1 = Math.PI * Math.pow(r, 2);
       const asTot = as1 * n;
-
-      // peso por metro: 7850 kg/m³ * Area m² = 7850 * (pi * (phi/2000)^2) = 0.006165 * phi^2
       const pesoM = (Math.PI * Math.pow(phi / 1000, 2) / 4) * 7850;
 
       document.getElementById('resAs1').innerText = as1.toFixed(2) + ' cm²';
@@ -754,7 +677,7 @@
         vol = bx * by * h;
       }
 
-      const peso = vol * 2.5; // concreto armado γ = 2.5 tf/m³
+      const peso = vol * 2.5;
       document.getElementById('resVol').innerText = vol.toFixed(2) + ' m³';
       document.getElementById('resPesoConc').innerText = peso.toFixed(2) + ' tf';
     }
