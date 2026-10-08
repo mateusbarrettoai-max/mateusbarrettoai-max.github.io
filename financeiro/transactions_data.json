@@ -13,7 +13,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "TED recebida"
+    "observacao": "TED recebida",
+    "mes": "Setembro/2026"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "TED recebida"
+    "observacao": "TED recebida",
+    "mes": "Setembro/2026"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "conta_pagadora": "Wise / PF",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Contrato recorrente internacional"
+    "observacao": "Contrato recorrente internacional",
+    "mes": "Setembro/2026"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Bolsa de estágio mensal"
+    "observacao": "Bolsa de estágio mensal",
+    "mes": "Setembro/2026"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Complemento estágio / reembolso"
+    "observacao": "Complemento estágio / reembolso",
+    "mes": "Setembro/2026"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "PF pagou PJ",
     "status": "Liquidado",
-    "observacao": "Aluguel escritório Pouso Alegre pago via PF"
+    "observacao": "Aluguel escritório Pouso Alegre pago via PF",
+    "mes": "Setembro/2026"
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Internet Pouso Alegre"
+    "observacao": "Internet Pouso Alegre",
+    "mes": "Setembro/2026"
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     "conta_pagadora": "Cartão Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Assinatura mensal Google"
+    "observacao": "Assinatura mensal Google",
+    "mes": "Setembro/2026"
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "PF pagou PJ",
     "status": "Liquidado",
-    "observacao": "Tributo da empresa pago com conta pessoal"
+    "observacao": "Tributo da empresa pago com conta pessoal",
+    "mes": "Setembro/2026"
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "PF pagou PJ",
     "status": "Liquidado",
-    "observacao": "Anuidade profissional engenharia"
+    "observacao": "Anuidade profissional engenharia",
+    "mes": "Setembro/2026"
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "PF pagou PJ",
     "status": "Liquidado",
-    "observacao": "Associação de classe técnica"
+    "observacao": "Associação de classe técnica",
+    "mes": "Setembro/2026"
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Curso técnico engenharia"
+    "observacao": "Curso técnico engenharia",
+    "mes": "Setembro/2026"
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Tarifa de cesta PJ"
+    "observacao": "Tarifa de cesta PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 14,
@@ -221,7 +234,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Tarifa transferência Pix"
+    "observacao": "Tarifa transferência Pix",
+    "mes": "Setembro/2026"
   },
   {
     "id": 15,
@@ -237,7 +251,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Tarifa transferência Pix"
+    "observacao": "Tarifa transferência Pix",
+    "mes": "Setembro/2026"
   },
   {
     "id": 16,
@@ -253,7 +268,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Tarifa transferência Pix"
+    "observacao": "Tarifa transferência Pix",
+    "mes": "Setembro/2026"
   },
   {
     "id": 17,
@@ -269,7 +285,8 @@
     "conta_pagadora": "Cartão Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "ÚLTIMA PARCELA 2/2 - Concluída"
+    "observacao": "ÚLTIMA PARCELA 2/2 - Concluída",
+    "mes": "Setembro/2026"
   },
   {
     "id": 18,
@@ -285,7 +302,8 @@
     "conta_pagadora": "Cartão Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Parcela 2 de 3 (Encerra em Out)"
+    "observacao": "Parcela 2 de 3 (Encerra em Out)",
+    "mes": "Setembro/2026"
   },
   {
     "id": 19,
@@ -301,7 +319,8 @@
     "conta_pagadora": "Cartão Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Seguro auto parcela 9 de 10"
+    "observacao": "Seguro auto parcela 9 de 10",
+    "mes": "Setembro/2026"
   },
   {
     "id": 20,
@@ -317,7 +336,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Serviço operacional"
+    "observacao": "Serviço operacional",
+    "mes": "Setembro/2026"
   },
   {
     "id": 21,
@@ -333,7 +353,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Serviço operacional"
+    "observacao": "Serviço operacional",
+    "mes": "Setembro/2026"
   },
   {
     "id": 22,
@@ -349,7 +370,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Serviço operacional"
+    "observacao": "Serviço operacional",
+    "mes": "Setembro/2026"
   },
   {
     "id": 23,
@@ -365,7 +387,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Refeição em trabalho"
+    "observacao": "Refeição em trabalho",
+    "mes": "Setembro/2026"
   },
   {
     "id": 24,
@@ -381,7 +404,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Refeição em trabalho"
+    "observacao": "Refeição em trabalho",
+    "mes": "Setembro/2026"
   },
   {
     "id": 25,
@@ -397,7 +421,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Deslocamento"
+    "observacao": "Deslocamento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 26,
@@ -413,7 +438,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Deslocamento"
+    "observacao": "Deslocamento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 27,
@@ -429,7 +455,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Deslocamento"
+    "observacao": "Deslocamento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 28,
@@ -445,7 +472,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Deslocamento"
+    "observacao": "Deslocamento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 29,
@@ -461,7 +489,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "Normal PJ",
     "status": "Liquidado",
-    "observacao": "Despesa em trânsito"
+    "observacao": "Despesa em trânsito",
+    "mes": "Setembro/2026"
   },
   {
     "id": 30,
@@ -477,7 +506,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Parcela mensal regular do veículo"
+    "observacao": "Parcela mensal regular do veículo",
+    "mes": "Setembro/2026"
   },
   {
     "id": 31,
@@ -493,7 +523,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Parcela adiantada/regularizada do carro"
+    "observacao": "Parcela adiantada/regularizada do carro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 32,
@@ -502,14 +533,15 @@
     "conta": "Conta Caixa PJ",
     "entidade": "PF",
     "tipo": "Despesa",
-    "categoria": "Moradia",
-    "subcategoria": "Imóvel Salvador",
+    "categoria": "Investimento Patrimonial",
+    "subcategoria": "Apto Salvador (Na Planta)",
     "descricao": "Costa Azul Salvador / Ocean Breeze",
     "valor": 1662.67,
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Condomínio/Parcela imóvel SSA pago no PJ"
+    "observacao": "Aquisição de Imóvel na Planta (Patrimônio Líquido) - Pago via PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 33,
@@ -525,7 +557,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Aluguel residencial pago no PJ"
+    "observacao": "Aluguel residencial pago no PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 34,
@@ -541,7 +574,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Energia residencial Pouso Alegre"
+    "observacao": "Energia residencial Pouso Alegre",
+    "mes": "Setembro/2026"
   },
   {
     "id": 35,
@@ -557,7 +591,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Energia residencial"
+    "observacao": "Energia residencial",
+    "mes": "Setembro/2026"
   },
   {
     "id": 36,
@@ -573,7 +608,8 @@
     "conta_pagadora": "Conta Nubank PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Jiu-jitsu pago no Nubank PJ"
+    "observacao": "Jiu-jitsu pago no Nubank PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 37,
@@ -589,7 +625,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Mensalidade de lutas na Caixa PJ"
+    "observacao": "Mensalidade de lutas na Caixa PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 38,
@@ -605,7 +642,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento carro"
+    "observacao": "Abastecimento carro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 39,
@@ -621,7 +659,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento carro"
+    "observacao": "Abastecimento carro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 40,
@@ -637,7 +676,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Pedágio na estrada"
+    "observacao": "Pedágio na estrada",
+    "mes": "Setembro/2026"
   },
   {
     "id": 41,
@@ -653,7 +693,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Compra de mercado na Caixa PJ"
+    "observacao": "Compra de mercado na Caixa PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 42,
@@ -669,7 +710,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Despesa pessoal na Caixa PJ"
+    "observacao": "Despesa pessoal na Caixa PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 43,
@@ -685,7 +727,8 @@
     "conta_pagadora": "Conta Caixa PJ",
     "cruzamento": "PJ bancou PF",
     "status": "Liquidado",
-    "observacao": "Despesa pessoal na Caixa PJ"
+    "observacao": "Despesa pessoal na Caixa PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 44,
@@ -701,7 +744,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mensalidade escolar Benjamim"
+    "observacao": "Mensalidade escolar Benjamim",
+    "mes": "Setembro/2026"
   },
   {
     "id": 45,
@@ -717,7 +761,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Curso de inglês Benjamim"
+    "observacao": "Curso de inglês Benjamim",
+    "mes": "Setembro/2026"
   },
   {
     "id": 46,
@@ -733,7 +778,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Plano de saúde família"
+    "observacao": "Plano de saúde família",
+    "mes": "Setembro/2026"
   },
   {
     "id": 47,
@@ -749,7 +795,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Plano de saúde família"
+    "observacao": "Plano de saúde família",
+    "mes": "Setembro/2026"
   },
   {
     "id": 48,
@@ -765,7 +812,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Plano de saúde família"
+    "observacao": "Plano de saúde família",
+    "mes": "Setembro/2026"
   },
   {
     "id": 49,
@@ -781,7 +829,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Previdência complementar privada"
+    "observacao": "Previdência complementar privada",
+    "mes": "Setembro/2026"
   },
   {
     "id": 50,
@@ -797,7 +846,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Telefonia celular"
+    "observacao": "Telefonia celular",
+    "mes": "Setembro/2026"
   },
   {
     "id": 51,
@@ -813,7 +863,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Taxa atividade"
+    "observacao": "Taxa atividade",
+    "mes": "Setembro/2026"
   },
   {
     "id": 52,
@@ -829,7 +880,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 53,
@@ -845,7 +897,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Pessoal"
+    "observacao": "Pessoal",
+    "mes": "Setembro/2026"
   },
   {
     "id": 54,
@@ -861,7 +914,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 55,
@@ -877,7 +931,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 56,
@@ -893,7 +948,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 57,
@@ -909,7 +965,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 58,
@@ -925,7 +982,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Doação / Bazar"
+    "observacao": "Doação / Bazar",
+    "mes": "Setembro/2026"
   },
   {
     "id": 59,
@@ -941,7 +999,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 60,
@@ -957,7 +1016,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 61,
@@ -973,7 +1033,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 62,
@@ -989,7 +1050,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 63,
@@ -1005,7 +1067,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Feira"
+    "observacao": "Feira",
+    "mes": "Setembro/2026"
   },
   {
     "id": 64,
@@ -1021,7 +1084,8 @@
     "conta_pagadora": "Conta Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 65,
@@ -1037,7 +1101,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Hortifruti"
+    "observacao": "Hortifruti",
+    "mes": "Setembro/2026"
   },
   {
     "id": 66,
@@ -1053,7 +1118,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 67,
@@ -1069,7 +1135,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Medicamentos"
+    "observacao": "Medicamentos",
+    "mes": "Setembro/2026"
   },
   {
     "id": 68,
@@ -1085,7 +1152,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 69,
@@ -1101,7 +1169,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Almoço / Refeição"
+    "observacao": "Almoço / Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 70,
@@ -1117,7 +1186,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Pedágio"
+    "observacao": "Pedágio",
+    "mes": "Setembro/2026"
   },
   {
     "id": 71,
@@ -1133,7 +1203,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 72,
@@ -1149,7 +1220,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição viagem"
+    "observacao": "Refeição viagem",
+    "mes": "Setembro/2026"
   },
   {
     "id": 73,
@@ -1158,14 +1230,15 @@
     "conta": "Cartão Caixa PF",
     "entidade": "PF",
     "tipo": "Despesa",
-    "categoria": "Alimentação",
-    "subcategoria": "Restaurantes & Lanches",
+    "categoria": "Investimento Patrimonial",
+    "subcategoria": "Apto Salvador (Na Planta)",
     "descricao": "Subway Aeroporto Salvador",
     "valor": 37.0,
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição viagem"
+    "observacao": "Aquisição de Imóvel na Planta (Patrimônio Líquido) - Pago via PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 74,
@@ -1181,7 +1254,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 75,
@@ -1197,7 +1271,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 76,
@@ -1206,14 +1281,15 @@
     "conta": "Cartão Caixa PF",
     "entidade": "PF",
     "tipo": "Despesa",
-    "categoria": "Alimentação",
-    "subcategoria": "Restaurantes & Lanches",
+    "categoria": "Investimento Patrimonial",
+    "subcategoria": "Apto Salvador (Na Planta)",
     "descricao": "Qsq Aero Salvador",
     "valor": 6.0,
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição viagem"
+    "observacao": "Aquisição de Imóvel na Planta (Patrimônio Líquido) - Pago via PJ",
+    "mes": "Setembro/2026"
   },
   {
     "id": 77,
@@ -1229,7 +1305,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Café viagem"
+    "observacao": "Café viagem",
+    "mes": "Setembro/2026"
   },
   {
     "id": 78,
@@ -1245,7 +1322,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição viagem"
+    "observacao": "Refeição viagem",
+    "mes": "Setembro/2026"
   },
   {
     "id": 79,
@@ -1261,7 +1339,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Passagem interestadual"
+    "observacao": "Passagem interestadual",
+    "mes": "Setembro/2026"
   },
   {
     "id": 80,
@@ -1277,7 +1356,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Ração / Animais"
+    "observacao": "Ração / Animais",
+    "mes": "Setembro/2026"
   },
   {
     "id": 81,
@@ -1293,7 +1373,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 82,
@@ -1309,7 +1390,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 83,
@@ -1325,7 +1407,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 84,
@@ -1341,7 +1424,8 @@
     "conta_pagadora": "Cartão Caixa PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Anuidade cartão"
+    "observacao": "Anuidade cartão",
+    "mes": "Setembro/2026"
   },
   {
     "id": 85,
@@ -1357,7 +1441,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "ÚLTIMA PARCELA 10/10 - ENCERRADA! Alívio em Outubro"
+    "observacao": "ÚLTIMA PARCELA 10/10 - ENCERRADA! Alívio em Outubro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 86,
@@ -1373,7 +1458,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "ÚLTIMA PARCELA 3/3 - ENCERRADA! Alívio em Outubro"
+    "observacao": "ÚLTIMA PARCELA 3/3 - ENCERRADA! Alívio em Outubro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 87,
@@ -1389,7 +1475,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "ÚLTIMA PARCELA 4/4 - ENCERRADA! Alívio em Outubro"
+    "observacao": "ÚLTIMA PARCELA 4/4 - ENCERRADA! Alívio em Outubro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 88,
@@ -1405,7 +1492,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Parcela 3 de 4 (Última parcela em Outubro)"
+    "observacao": "Parcela 3 de 4 (Última parcela em Outubro)",
+    "mes": "Setembro/2026"
   },
   {
     "id": 89,
@@ -1421,7 +1509,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Parcela 3 de 6"
+    "observacao": "Parcela 3 de 6",
+    "mes": "Setembro/2026"
   },
   {
     "id": 90,
@@ -1437,7 +1526,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Parcela 2 de 3 (Encerra em Outubro)"
+    "observacao": "Parcela 2 de 3 (Encerra em Outubro)",
+    "mes": "Setembro/2026"
   },
   {
     "id": 91,
@@ -1453,7 +1543,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Assinatura streaming"
+    "observacao": "Assinatura streaming",
+    "mes": "Setembro/2026"
   },
   {
     "id": 92,
@@ -1469,7 +1560,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Corrida Uber"
+    "observacao": "Corrida Uber",
+    "mes": "Setembro/2026"
   },
   {
     "id": 93,
@@ -1485,7 +1577,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Corrida Uber"
+    "observacao": "Corrida Uber",
+    "mes": "Setembro/2026"
   },
   {
     "id": 94,
@@ -1501,7 +1594,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 95,
@@ -1517,7 +1611,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 96,
@@ -1533,7 +1628,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 97,
@@ -1549,7 +1645,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 98,
@@ -1565,7 +1662,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Corrida Uber"
+    "observacao": "Corrida Uber",
+    "mes": "Setembro/2026"
   },
   {
     "id": 99,
@@ -1581,7 +1679,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 100,
@@ -1597,7 +1696,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 101,
@@ -1613,7 +1713,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 102,
@@ -1629,7 +1730,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 103,
@@ -1645,7 +1747,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 104,
@@ -1661,7 +1764,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Medicamentos"
+    "observacao": "Medicamentos",
+    "mes": "Setembro/2026"
   },
   {
     "id": 105,
@@ -1677,7 +1781,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Almoço"
+    "observacao": "Almoço",
+    "mes": "Setembro/2026"
   },
   {
     "id": 106,
@@ -1693,7 +1798,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 107,
@@ -1709,7 +1815,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Sorveteria"
+    "observacao": "Sorveteria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 108,
@@ -1725,7 +1832,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Higiene / Cosméticos"
+    "observacao": "Higiene / Cosméticos",
+    "mes": "Setembro/2026"
   },
   {
     "id": 109,
@@ -1741,7 +1849,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Compra principal da casa"
+    "observacao": "Compra principal da casa",
+    "mes": "Setembro/2026"
   },
   {
     "id": 110,
@@ -1757,7 +1866,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado reposição"
+    "observacao": "Mercado reposição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 111,
@@ -1773,7 +1883,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 112,
@@ -1789,7 +1900,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Recarga / Telefonia"
+    "observacao": "Recarga / Telefonia",
+    "mes": "Setembro/2026"
   },
   {
     "id": 113,
@@ -1805,7 +1917,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 114,
@@ -1821,7 +1934,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Compra online"
+    "observacao": "Compra online",
+    "mes": "Setembro/2026"
   },
   {
     "id": 115,
@@ -1837,7 +1951,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 116,
@@ -1853,7 +1968,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Comércio"
+    "observacao": "Comércio",
+    "mes": "Setembro/2026"
   },
   {
     "id": 117,
@@ -1869,7 +1985,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 118,
@@ -1885,7 +2002,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Serviço"
+    "observacao": "Serviço",
+    "mes": "Setembro/2026"
   },
   {
     "id": 119,
@@ -1901,7 +2019,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 120,
@@ -1917,7 +2036,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 121,
@@ -1933,7 +2053,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 122,
@@ -1949,7 +2070,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 123,
@@ -1965,7 +2087,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 124,
@@ -1981,7 +2104,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Petshop / Rações"
+    "observacao": "Petshop / Rações",
+    "mes": "Setembro/2026"
   },
   {
     "id": 125,
@@ -1997,7 +2121,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 126,
@@ -2013,7 +2138,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 127,
@@ -2029,7 +2155,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Sobremesa"
+    "observacao": "Sobremesa",
+    "mes": "Setembro/2026"
   },
   {
     "id": 128,
@@ -2045,7 +2172,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 129,
@@ -2061,7 +2189,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Streaming"
+    "observacao": "Streaming",
+    "mes": "Setembro/2026"
   },
   {
     "id": 130,
@@ -2077,7 +2206,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Música"
+    "observacao": "Música",
+    "mes": "Setembro/2026"
   },
   {
     "id": 131,
@@ -2093,7 +2223,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 132,
@@ -2109,7 +2240,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Streaming"
+    "observacao": "Streaming",
+    "mes": "Setembro/2026"
   },
   {
     "id": 133,
@@ -2125,7 +2257,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Alimentação"
+    "observacao": "Alimentação",
+    "mes": "Setembro/2026"
   },
   {
     "id": 134,
@@ -2141,7 +2274,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 135,
@@ -2157,7 +2291,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 136,
@@ -2173,7 +2308,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Material escolar"
+    "observacao": "Material escolar",
+    "mes": "Setembro/2026"
   },
   {
     "id": 137,
@@ -2189,7 +2325,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Utilidades domésticas"
+    "observacao": "Utilidades domésticas",
+    "mes": "Setembro/2026"
   },
   {
     "id": 138,
@@ -2205,7 +2342,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Tecidos / Casa"
+    "observacao": "Tecidos / Casa",
+    "mes": "Setembro/2026"
   },
   {
     "id": 139,
@@ -2221,7 +2359,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 140,
@@ -2237,7 +2376,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Brinquedos / Infantil"
+    "observacao": "Brinquedos / Infantil",
+    "mes": "Setembro/2026"
   },
   {
     "id": 141,
@@ -2253,7 +2393,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 142,
@@ -2269,7 +2410,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Utilidades"
+    "observacao": "Utilidades",
+    "mes": "Setembro/2026"
   },
   {
     "id": 143,
@@ -2285,7 +2427,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 144,
@@ -2301,7 +2444,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Churrascaria / Restaurante"
+    "observacao": "Churrascaria / Restaurante",
+    "mes": "Setembro/2026"
   },
   {
     "id": 145,
@@ -2317,7 +2461,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 146,
@@ -2333,7 +2478,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 147,
@@ -2349,7 +2495,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Almoço domingo"
+    "observacao": "Almoço domingo",
+    "mes": "Setembro/2026"
   },
   {
     "id": 148,
@@ -2365,7 +2512,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 149,
@@ -2381,7 +2529,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Sorveteria"
+    "observacao": "Sorveteria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 150,
@@ -2397,7 +2546,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanche"
+    "observacao": "Lanche",
+    "mes": "Setembro/2026"
   },
   {
     "id": 151,
@@ -2413,7 +2563,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 152,
@@ -2429,7 +2580,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 153,
@@ -2445,7 +2597,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Compra Amazon"
+    "observacao": "Compra Amazon",
+    "mes": "Setembro/2026"
   },
   {
     "id": 154,
@@ -2461,7 +2614,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 155,
@@ -2477,7 +2631,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Rações / Animais"
+    "observacao": "Rações / Animais",
+    "mes": "Setembro/2026"
   },
   {
     "id": 156,
@@ -2493,7 +2648,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanche"
+    "observacao": "Lanche",
+    "mes": "Setembro/2026"
   },
   {
     "id": 157,
@@ -2509,7 +2665,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Prime mensal"
+    "observacao": "Prime mensal",
+    "mes": "Setembro/2026"
   },
   {
     "id": 158,
@@ -2525,7 +2682,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Vestuário"
+    "observacao": "Vestuário",
+    "mes": "Setembro/2026"
   },
   {
     "id": 159,
@@ -2541,7 +2699,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 160,
@@ -2557,7 +2716,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Compra Amazon"
+    "observacao": "Compra Amazon",
+    "mes": "Setembro/2026"
   },
   {
     "id": 161,
@@ -2573,7 +2733,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Brinquedos / Infantil"
+    "observacao": "Brinquedos / Infantil",
+    "mes": "Setembro/2026"
   },
   {
     "id": 162,
@@ -2589,7 +2750,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 163,
@@ -2605,7 +2767,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 164,
@@ -2621,7 +2784,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Refeição"
+    "observacao": "Refeição",
+    "mes": "Setembro/2026"
   },
   {
     "id": 165,
@@ -2637,7 +2801,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Café / Bistro"
+    "observacao": "Café / Bistro",
+    "mes": "Setembro/2026"
   },
   {
     "id": 166,
@@ -2653,7 +2818,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Petshop"
+    "observacao": "Petshop",
+    "mes": "Setembro/2026"
   },
   {
     "id": 167,
@@ -2669,7 +2835,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 168,
@@ -2685,7 +2852,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
   },
   {
     "id": 169,
@@ -2701,7 +2869,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 170,
@@ -2717,7 +2886,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Churrascaria / Restaurante"
+    "observacao": "Churrascaria / Restaurante",
+    "mes": "Setembro/2026"
   },
   {
     "id": 171,
@@ -2733,7 +2903,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Odontologia"
+    "observacao": "Odontologia",
+    "mes": "Setembro/2026"
   },
   {
     "id": 172,
@@ -2749,7 +2920,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Streaming canais"
+    "observacao": "Streaming canais",
+    "mes": "Setembro/2026"
   },
   {
     "id": 173,
@@ -2765,7 +2937,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Lanches"
+    "observacao": "Lanches",
+    "mes": "Setembro/2026"
   },
   {
     "id": 174,
@@ -2781,7 +2954,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 175,
@@ -2797,7 +2971,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 176,
@@ -2813,7 +2988,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Compra Amazon"
+    "observacao": "Compra Amazon",
+    "mes": "Setembro/2026"
   },
   {
     "id": 177,
@@ -2829,7 +3005,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Abastecimento"
+    "observacao": "Abastecimento",
+    "mes": "Setembro/2026"
   },
   {
     "id": 178,
@@ -2845,7 +3022,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Mercado"
+    "observacao": "Mercado",
+    "mes": "Setembro/2026"
   },
   {
     "id": 179,
@@ -2861,7 +3039,8 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Produtos a granel"
+    "observacao": "Produtos a granel",
+    "mes": "Setembro/2026"
   },
   {
     "id": 180,
@@ -2877,6 +3056,891 @@
     "conta_pagadora": "Cartão Nubank PF",
     "cruzamento": "Normal PF",
     "status": "Liquidado",
-    "observacao": "Padaria"
+    "observacao": "Padaria",
+    "mes": "Setembro/2026"
+  },
+  {
+    "id": 1001,
+    "data": "2026-10-06",
+    "competencia": "10/2026",
+    "conta": "Conta Nubank PF",
+    "entidade": "PJ",
+    "tipo": "Receita",
+    "categoria": "Receita Internacional",
+    "subcategoria": "Projetos Internacionais",
+    "descricao": "TDP Braga (Portugal) - Wise 1.575 €",
+    "valor": 8770.21,
+    "conta_pagadora": "Wise / PF",
+    "cruzamento": "PF recebeu PJ",
+    "status": "Liquidado",
+    "observacao": "Contrato recorrente internacional recebido no CPF",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1002,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PF",
+    "entidade": "PF",
+    "tipo": "Receita Neutra",
+    "categoria": "Presentes / Doações",
+    "subcategoria": "Presente Filho",
+    "descricao": "Juciara Moura Barretto (Mãe) - Presente Benjamim",
+    "valor": 400.0,
+    "conta_pagadora": "Conta Caixa PF",
+    "cruzamento": "Neutro (Presente)",
+    "status": "Liquidado",
+    "observacao": "Presente da avó para o filho - Não tributável / Não operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1003,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Equipe & Estágio",
+    "descricao": "Fernanda Mayra Campos Barretto (Estagiária)",
+    "valor": 1621.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Bolsa de estágio mensal",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1004,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Tarifas Bancárias",
+    "descricao": "Tarifa Pix Caixa PJ (Estágio)",
+    "valor": 8.5,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Tarifa de transferência Pix",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1005,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Investimento Patrimonial",
+    "subcategoria": "Apto Salvador (Na Planta)",
+    "descricao": "Apto Salvador Ocean Breeze (Parcela Construtora)",
+    "valor": 1673.59,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "PJ bancou PF",
+    "status": "Liquidado",
+    "observacao": "Parcela mensal do apto em construção paga na conta PJ!",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1006,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Conectividade / Internet",
+    "descricao": "Internet Escritório Pouso Alegre (Pix)",
+    "valor": 99.9,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Conectividade do escritório",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1007,
+    "data": "2026-10-02",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "E PIX QRD (Operacional)",
+    "valor": 121.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1008,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "ENV PIX QE (Operacional)",
+    "valor": 98.99,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1009,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "ENV PIX QE (Operacional)",
+    "valor": 84.46,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1010,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "E PIX QRD (Operacional)",
+    "valor": 60.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1011,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "E PIX QRD (Operacional)",
+    "valor": 35.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1012,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "ENV PIX QE (Operacional)",
+    "valor": 20.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1013,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Serviços Operacionais",
+    "descricao": "E PIX QRD (Operacional)",
+    "valor": 18.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Despesa operacional",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1014,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PF",
+    "tipo": "Transferência",
+    "categoria": "Retirada de Pró-Labore",
+    "subcategoria": "Adiantamento Sócio",
+    "descricao": "Transferência Caixa PJ -> Caixa PF Mateus",
+    "valor": 1000.0,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "PJ bancou PF",
+    "status": "Liquidado",
+    "observacao": "Adiantamento para pagamento da fatura Caixa PF",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1015,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Tarifas Bancárias",
+    "descricao": "Tarifa Pix Caixa PJ (Transferência)",
+    "valor": 8.5,
+    "conta_pagadora": "Conta Caixa PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Tarifa Pix",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1016,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Mercadinho 24h (Pix QR)",
+    "valor": 45.96,
+    "conta_pagadora": "Conta Caixa PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Mercado reposição",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1017,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Feira / Padaria",
+    "descricao": "Jose Messias Da Rosa (Feira Pix)",
+    "valor": 17.0,
+    "conta_pagadora": "Conta Caixa PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Feira hortifrúti",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1018,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Conta Caixa PF",
+    "entidade": "PF",
+    "tipo": "Transferência",
+    "categoria": "Pagamento Fatura",
+    "subcategoria": "Cartão Elo",
+    "descricao": "Pagamento Fatura Cartão Caixa Elo (Setembro)",
+    "valor": 1037.1,
+    "conta_pagadora": "Conta Caixa PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Fatura de Setembro liquidada",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1019,
+    "data": "2026-10-27",
+    "competencia": "10/2026",
+    "conta": "Cartão Caixa PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Compras & Lazer",
+    "subcategoria": "Tarifas Cartão",
+    "descricao": "Anuidade Nacional Titular (03/12)",
+    "valor": 5.25,
+    "conta_pagadora": "Cartão Caixa PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Anuidade cartão",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1020,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Viagens & Deslocamento",
+    "descricao": "Latam Linhas Aéreas (Passagem Trabalho)",
+    "valor": 642.49,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Deslocamento técnico projeto",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1021,
+    "data": "2026-10-02",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Softwares & TI",
+    "descricao": "Google Workspace",
+    "valor": 98.0,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "E-mail / Drive corporativo",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1022,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Softwares & TI",
+    "descricao": "OpenAI ChatGPT Subscription",
+    "valor": 103.13,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "Assinatura IA técnica",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1023,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Tributos & Taxas",
+    "descricao": "IOF Compra Internacional (OpenAI)",
+    "valor": 3.6,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "IOF cartão corporativo",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1024,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Viagens & Deslocamento",
+    "descricao": "Gol Linhas Aéreas - Parcela 3/3",
+    "valor": 246.57,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "ÚLTIMA PARCELA 3/3 - ENCERRADA! Alívio em Novembro!",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1025,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PJ",
+    "entidade": "PJ",
+    "tipo": "Despesa",
+    "categoria": "Custos Escritório",
+    "subcategoria": "Operação & Frota",
+    "descricao": "Azul Seguros Veicular - Parcela 10/10",
+    "valor": 238.77,
+    "conta_pagadora": "Cartão Nubank PJ",
+    "cruzamento": "Normal PJ",
+    "status": "Liquidado",
+    "observacao": "ÚLTIMA PARCELA 10/10 - ENCERRADA! Alívio em Novembro!",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1026,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Economart (Atacado - Compra do Mês)",
+    "valor": 1379.07,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Grande compra mensal de mantimentos da casa",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1027,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Transporte & Veículos",
+    "subcategoria": "Passagens Aéreas",
+    "descricao": "Latam Linhas Aéreas - Parcela 4/4",
+    "valor": 426.53,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "ÚLTIMA PARCELA 4/4 - ENCERRADA! Alívio em Novembro!",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1028,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Saúde & Bem-Estar",
+    "subcategoria": "Atividades Físicas",
+    "descricao": "Respect 4 Jiu-Jitsu - Parcela 3/3",
+    "valor": 165.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "ÚLTIMA PARCELA 3/3 - ENCERRADA! Alívio em Novembro!",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1029,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Compras & Lazer",
+    "subcategoria": "Parcelamentos Antigos",
+    "descricao": "Pg *Pza Comercio - Parcela 4/6",
+    "valor": 111.63,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Parcela 4 de 6",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1030,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Saúde & Bem-Estar",
+    "subcategoria": "Farmácia",
+    "descricao": "Raia Drogasil - Parcela 1/3",
+    "valor": 112.91,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Medicamentos (Parcela 1 de 3)",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1031,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Compras & Lazer",
+    "subcategoria": "Vestuário / Casa",
+    "descricao": "Novaalianca",
+    "valor": 100.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Compras pessoais",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1032,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Lanches & Sobremesas",
+    "descricao": "Acai do Brunao Ribeira",
+    "valor": 100.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Lanches",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1033,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Moradia (Pouso Alegre)",
+    "subcategoria": "Conectividade / Telefone",
+    "descricao": "Tim *75992503292",
+    "valor": 60.35,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Telefonia celular",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1034,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Restaurantes & Lanches",
+    "descricao": "Mariajandirade",
+    "valor": 55.5,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Alimentação",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1035,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Restaurantes & Lanches",
+    "descricao": "Pastelaria do Tila",
+    "valor": 43.5,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Lanches",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1036,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Rodrigues Rodrigues Su",
+    "valor": 43.27,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Mercado",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1037,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Restaurantes & Lanches",
+    "descricao": "Mariko",
+    "valor": 40.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Alimentação",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1038,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Doces / Confeitaria",
+    "descricao": "Cacau Show",
+    "valor": 39.99,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Doces / Chocolates",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1039,
+    "data": "2026-10-02",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Saúde & Bem-Estar",
+    "subcategoria": "Farmácia",
+    "descricao": "Natusfarma 0030 Mg",
+    "valor": 39.99,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Farmácia",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1040,
+    "data": "2026-10-07",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Saúde & Bem-Estar",
+    "subcategoria": "Farmácia",
+    "descricao": "Masterformula",
+    "valor": 35.66,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Manipulação / Farmácia",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1041,
+    "data": "2026-10-02",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Compras & Lazer",
+    "subcategoria": "Streaming / TV",
+    "descricao": "Paramount+",
+    "valor": 34.9,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Assinatura streaming",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1042,
+    "data": "2026-10-02",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Supermercado Buritis",
+    "valor": 31.45,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Mercado reposição",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1043,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Supermercado Buritis",
+    "valor": 25.86,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Mercado reposição",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1044,
+    "data": "2026-10-04",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Lanches & Sobremesas",
+    "descricao": "Chiquinho Sorvetes",
+    "valor": 20.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Sobremesa",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1045,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Compras & Lazer",
+    "subcategoria": "Streaming / TV",
+    "descricao": "Amazon Prime Canais",
+    "valor": 19.99,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Assinatura canais",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1046,
+    "data": "2026-10-03",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Supermercados",
+    "descricao": "Supermercado Buritis",
+    "valor": 18.19,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Mercado reposição",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1047,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Padaria / Lanches",
+    "descricao": "Mp *Rosinairibeir",
+    "valor": 18.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Padaria",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1048,
+    "data": "2026-10-01",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Padaria / Lanches",
+    "descricao": "Mp *Rosinairibeir",
+    "valor": 14.5,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Padaria",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1049,
+    "data": "2026-10-06",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Padaria / Lanches",
+    "descricao": "Casa da Coxinha",
+    "valor": 14.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Lanches",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1050,
+    "data": "2026-10-03",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Padaria / Lanches",
+    "descricao": "Casa da Coxinha",
+    "valor": 13.5,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Lanches",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1051,
+    "data": "2026-09-30",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Educação (Benjamim)",
+    "subcategoria": "Material Escolar",
+    "descricao": "Papelaria Lapis de Cor",
+    "valor": 9.5,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Papelaria",
+    "mes": "Outubro/2026"
+  },
+  {
+    "id": 1052,
+    "data": "2026-10-05",
+    "competencia": "10/2026",
+    "conta": "Cartão Nubank PF",
+    "entidade": "PF",
+    "tipo": "Despesa",
+    "categoria": "Alimentação",
+    "subcategoria": "Restaurantes & Lanches",
+    "descricao": "Porto Bello Restaurant",
+    "valor": 8.0,
+    "conta_pagadora": "Cartão Nubank PF",
+    "cruzamento": "Normal PF",
+    "status": "Liquidado",
+    "observacao": "Lanches",
+    "mes": "Outubro/2026"
   }
 ]
